@@ -31,7 +31,7 @@ public class GameManagerX : MonoBehaviour
         {
             GameOver();
         }
-        //update the time is game is still active
+        //update the time when game is still active
         if (isGameActive)
         {
             defaultTimeOut += Time.deltaTime;
